@@ -1,12 +1,14 @@
 import React from 'react';
 import '../css/NavBar.css';
 import { IoMdCart } from 'react-icons/io';
-
+import { FcCollaboration } from 'react-icons/fc';
 function NavBar(props) {
   return (
     <>
       <nav className="menu">
-        <div className="menuLogo">Logo</div>
+        <div className="menuLogo">
+          <FcCollaboration />
+        </div>
         <ul>
           <li>Home</li>
           <li>Contactos</li>

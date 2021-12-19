@@ -19,12 +19,7 @@ function Boton(props) {
         className="boton"
         onClick={() => {
           setCarrito(carrito - 1);
-          if (carrito < 0) {
-            setCarrito(0);
-            alert('No puedes quitar mas de lo que hay');
-          } else {
-            props.dato(carrito);
-          }
+          props.dato(carrito);
         }}
       >
         Eliminar
