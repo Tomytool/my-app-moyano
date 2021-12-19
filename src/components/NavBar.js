@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/NavBar.css';
-import { IoMdCart } from 'react-icons/io';
+import CartWidget from './CartWidget';
 import { FcCollaboration } from 'react-icons/fc';
 function NavBar(props) {
   return (
@@ -16,10 +16,7 @@ function NavBar(props) {
           <li>precio</li>
           <li>Opcion5</li>
         </ul>
-        <div className="icono">
-          <IoMdCart />
-          <p>{props.compra}</p>
-        </div>
+        <CartWidget compra={props.compra} />
       </nav>
     </>
   );
