@@ -1,0 +1,55 @@
+.menu {
+  width: 100%;
+  background-color: darkslategrey;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu .menuLogo {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-size: 24px;
+  font-weight: bold;
+  width: 70%;
+}
+
+.menu li {
+  cursor: pointer;
+  padding: 10px;
+}
+.menu li:hover {
+  padding: 10px;
+  background-color: black;
+  border-radius: 15px;
+}
+.menu img {
+  width: 60px;
+  margin-right: 30px;
+}
+.icono {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.icono :nth-child(1) {
+  color: red;
+  font-size: 40px;
+}
+.icono :nth-child(2) {
+  color: blue;
+  font-size: 40px;
+}
