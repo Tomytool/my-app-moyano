@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <NavBar compra={contador} />
       <Boton dato={actualizar} />
-      <ItemListContainer />
+      <ItemListContainer stock={10} initial={1} />
     </div>
   );
 }
